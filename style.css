@@ -142,12 +142,11 @@ body{
     display: flex;
     align-items: center;
      justify-content: space-between;
-    
     flex-wrap: wrap;
 }
 
 #featurs .fe-box{
-    width: 140px;
+    width: 170px;
     text-align: center;
     padding: 25px 15px;
     box-shadow: 20px 20px 34px rgba(0,0,0,0.03);
@@ -852,9 +851,9 @@ background-color: #088178;
 /* ================= Media  Quary  ====================== */
 
 @media (max-width:799px){
-    /* .section-p1{
+    .section-p1{
         padding: 40px 40px;
-    } */
+    }
   #navbar {
     display: flex;
     flex-direction: column;
@@ -900,13 +899,11 @@ background-color: #088178;
     
     height: 70vh;
     padding: 0 80px;
-    background-position: top 30%;
+    background-position: top 30% right 30%;
    
 }
 #featurs {
-    
     justify-content:center;
-    
 }
 #featurs .fe-box{
     margin: 15px 15px;
@@ -920,8 +917,7 @@ background-color: #088178;
 #banner{
     height: 20vh;
 }
-#sm-banner .banner-box {
-    
+#sm-banner .banner-box { 
     min-width: 100%;
     height: 30vh;
 }
@@ -929,10 +925,9 @@ background-color: #088178;
    padding: 0 40px;
 }
 #banner3 .banner-box{
-    width: 288%;
+    width: 28%;
  }
- #newsletter .form {
-    
+ #newsletter .form { 
     width: 70%;
 }
 /* contact pages */
@@ -962,12 +957,12 @@ background-color: #088178;
     }
     #hero{
         padding: 0 20px;
-        background-position: 55%;
+        background-position: 60%;
     }
-    #feature{
+    #featurs{
         justify-content: space-between;
     }
-    #feature .fe-box{
+    #featurs .fe-box{
         width: 155px;
         margin: 0 0 15px 0;
     }
@@ -976,6 +971,12 @@ background-color: #088178;
     }
     #banner{
         height: 40vh;
+    }
+    #banner3 {
+        padding: 0 20px;
+    }
+    #banner3 .banner-box {
+        width: 100%;
     }
     #sm-banner .banner-box{
         height: 40vh;
